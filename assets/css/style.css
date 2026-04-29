@@ -230,7 +230,14 @@ main {
     flex-direction: column;
     gap: 10px;
     padding: 20px;
-    border: 2px solid #e00a0a;
+    border: 1px solid #e00a0a;
+    border-radius: 5px;
+}
+
+.contact__form button:hover{
+    background-color: #a70f0f;
+    color: #f5f5f5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .footer{
@@ -261,12 +268,36 @@ main {
         
     }
     .about__content {
-        display: flex;
-        flex-direction: column;
         align-items: center;
         width: 100%;
         height: auto;
+        gap: 10px;
     }
 
+    .about__content img{
+        width: 150px;
+        height: 200px;
+        margin: 50px 0px;
+    }
 
+    .article_paragraph{
+        border: 1px solid #e00a0a;
+    }
+
+    .media_container{
+        display: flex
+    }
+
+    .media__grid {
+        width: 120px;
+        height: 120px;
+
+    }
+
+    .media__grid img{
+        width: 120px;
+        height: 120px;
+    }
+    
+    
 }

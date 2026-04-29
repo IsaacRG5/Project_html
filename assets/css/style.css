@@ -249,23 +249,22 @@ main {
 
     .header{
         display: flex;
-        flex-direction: column;
         position: sticky;
         top: 0%;
+        flex-direction: column;
     }
 
     .nav{
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        justify-content: center;
     }   
     .nav li {
         display: flex;
-        flex-direction: column;
         margin: 10px;
         
+    }
+
+    .nav__list{
+        display: flex;
     }
     .about__content {
         align-items: center;
